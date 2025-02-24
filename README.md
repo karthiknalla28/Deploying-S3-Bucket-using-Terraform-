@@ -32,20 +32,20 @@ Here, we will learn how to use Terraform to launch an S3 bucket. You will use a 
   terraform init
   ```
 - Ensure the configuration is valid :
-```bash
-terraform validate
-```
+  ```bash
+  terraform validate
+  ```
 - Review the actions to be performed when the code is deployed and observe that we plan to add an S3 Bucket"
-```bash
-terraform plan
-```
+  ```bash
+  terraform plan
+  ```
 - Deploy the code :
-```bash
-terraform apply -auto-approve
-```
-- Log in to the AWS Management Console and then navigate to S3 and see that a bucket was created
+  ```bash
+  terraform apply -auto-approve
+  ```
+- Log in to the ```AWS Management Console``` and then navigate to ```S3 Bucket``` service and see that a bucket was created
 - Tear down the infrastructure :
-```bash
-terraform destroy -auto-approve
-```
+  ```bash
+  terraform destroy -auto-approve
+  ```
  
