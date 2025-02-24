@@ -25,7 +25,7 @@ Here, we will learn how to use Terraform to launch an S3 bucket. You will use a 
   vim main.tf
   ```
 #### Note : 
-- Press ```i``` to enter insert mode and use ```:wq!``` for saving and quitting out of the file.
+Press ```i``` to enter insert mode and use ```:wq!``` for saving and quitting out of the file.
 #### Deploy your code and verify theResources were launched in AWS :
 - Intailaize the terraform script :
   ```bash
